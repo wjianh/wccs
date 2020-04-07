@@ -1,0 +1,124 @@
+@charset "utf-8";
+/*CSS Reset*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,form,label,caption{margin:0;padding:0;border:0;outline:0;font-size:100%;font-style:normal;text-decoration:none; font-weight: normal;}
+table,tbody,thead,tfoot,tr,th,td{ margin:0;padding:0; }
+ol,ul,li{list-style:none;}
+body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,p,blockquote,button,img{margin:0;padding:0;border:0}
+h1,h2,h3,h4,h5,h6{font-weight:normal}
+s,i,u,em{font-style:normal}
+ins{text-decoration:none;}
+del{text-decoration:line-through;}
+input{font-size:12px; outline:none;}
+body{font-family:arial,'Microsoft YaHei';font-size:12px;line-height:1.6;color:#5a5a5a; background:#f5f5f5; }
+html{ overflow-x:hidden;}
+select,input,button,textarea{font-family:Microsoft YaHei;color:#333;}
+a:link,a:visited,a:active{text-decoration:none;}
+a{font-family: Microsoft YaHei;cursor:pointer;font-weight: normal;}
+img{vertical-align:bottom;}
+.clearfix:after {content: " ";display: block;height: 0;clear: both;}
+.clearfix {zoom: 1;}
+.fl{float:left;}
+.fr{float:right;}
+a:hover{text-decoration: underline;}
+.clear{clear:both;}
+
+/*banner*/
+.banner{width: 1100px;margin:0 auto;overflow: hidden; height: 116px;}
+.banner .yxlogo{width: 245px;height: 57px;background: url(http://static.yxdown.com/pc/danji/images/softview.png) no-repeat;background-position: 0px 0px;display: inline-block;float: left;text-indent: -9999px;margin-left: 5px;margin-top: 30px;margin-bottom: 29px;}
+#search{float:right;display: inline;margin-top: 31px;width: 467px;}
+#search .tsbox_text{float:left;display: inline;height: 36px;overflow:hidden;width: 410px;}
+#search .tsbox_text input{float:left;border:none;padding:0px;margin:0px;font:100 14px/16px Arial,"Microsoft YaHei";color: #acacac;width: 400px;line-height: 34px;outline:none;display: inline;border-radius: 3px;border: 1px solid #31acf2;background: #fafafa;height: 34px;padding-left: 10px;}
+#search .tsbox_btn{ float: left; display: inline;}
+#search .tsbox_btn input{float:left;border:none;margin:0px;padding:0px;background: url(http://static.yxdown.com/pc/danji/images/softview.png) no-repeat -213px -59px;width: 57px;height: 36px;overflow:hidden;text-indent:-999em;cursor:pointer;display:block;}
+#search .tsbox_btn input:hover{ background-position: -213px -436px; }
+#search span.hot{}
+#search span.hot{color: #ff7e00;font-weight: bold;padding-left: 0px;width: 464px;float: left;display: inline;overflow:hidden;padding-top: 7px;text-overflow: clip;height: 22px;}
+#search span.hot a{ color:#666; padding-right:8px; font-weight: normal;}
+#search span.hot a:hover{color:#ff5a19;}
+
+.menu{width: 1100px;margin:0 auto;height:48px;overflow: hidden;background: #31acf2;}
+.menu a{ display: inline-block; float: left; height: 48px; line-height: 48px; color: #fff; font-size: 14px; padding: 0px 11px;}
+.menu a.hover,.menu a:hover{background: #1e9fe8;text-decoration: none; color: #fff;}
+#tl_adv{width: 1100px;margin:0 auto;overflow: hidden;zoom:1;margin-top: 8px;height: 120px;margin-bottom: 8px;}
+
+#s_nav{width: 1088px;margin:0 auto;clear:both;background: #fff;padding: 3px 6px;}
+.line_w.hover{width:1000px;height:31px;margin-bottom:0px;background-color:#EBEBEB;}
+.line_g{background-color: #f5f5f5;}
+.line_g,.line_w{overflow:hidden;zoom:1;height: 33px;white-space: nowrap;}
+.linebox {overflow:hidden;zoom:1;}
+.w_icon{position:relative;top:5px;border:none;float: left;display: inline;}
+.g_icon{position:relative;top:5px;margin-left:4px;height:22px;border:none;}
+.manu{text-decoration:none;font-size:12px;color:#AAAAAA;width: 56px;display: inline-block;line-height: 22px;text-align: center;overflow: hidden;}
+.manu:hover{color:#3ACB38;}
+.f_w{float: left;display: inline;width: 1025px;line-height: 31px;height: 31px;overflow: hidden;white-space: normal;}
+.f_w a{padding-right: 8px;padding-left: 8px;font-size:12px;color:#666666;/* float:left; */ *display: inline-block; *float: left;}
+.f_w a:hover,.f_w a.hot:hover{color:#ff5a19;}
+.f_w a.hot{ color: #ff4800; }
+.line{background: #cfcfcf;width:1px;height:10px;/* float:left; */border:0px;margin-top: 10px;display: inline-block; *float: left;}
+
+#s_nav .w_icon {background: url(http://static.yxdown.com/pc/danji/images/softview.png);background-position: -205px -260px;width:63px;height: 23px;background-repeat:no-repeat;}
+#s_nav .w_icon a {color:#fff;}
+#s_nav > .line_w .w_icon {background-position: -205px -283px;}
+#s_nav > div:first-child .w_icon {background-position: -205px -237px;}
+
+#noGameDiv{width: 339px;background: url("http://static.yxdown.com/pc/sy_item/images/no_resource.png") center top no-repeat;}
+
+/*当前位置*/
+#wz{width:1100px;height:30px;line-height:30px;margin:0px auto;padding-left:10px;overflow:hidden;color: #888;padding: 4px 0px;font-size: 12px;}
+#wz a,#wz b{color: #919191;padding: 0px 4px;}
+#wz a:hover{ color: #d81d22; }
+#wz em{color: #555555;margin-left: 4px;}
+#wz span{float: left;display: inline-block;width: 80px;color: #999;}
+#wz span i{width: 13px;height: 14px;display: inline-block;float: left;margin-top: 9px;margin-right: 3px;color: #999;}
+
+/*游戏信息*/
+.gameinfo{width: 1100px;margin:0 auto;overflow: hidden;height: 274px;background: #fff;}
+.info_l{float: left;padding-left: 23px;border-right: 1px solid #f1f1f1;width: 796px;}
+.cover{width: 160px;float: left;position: relative;margin-top: 27px;display: inline-block;height: 244px;}
+.cover img{width: 160px;height: 220px;}
+.cover em{width: 160px;height: 18px;display: block;position: absolute;background: url(http://static.yxdown.com/pc/danji/images/softview.png);background-position: 0px -265px;left: 0px;bottom: 6px;}
+.infobox{width: 613px;float: left;padding-left: 22px;position: relative;margin-top: 20px;}
+.infobox .infocon{}
+.infocon h1{font-size: 22px;color: #222;font-family: 'Microsoft YaHei',arial;width: 407px;float: left;}
+.infocon b{color: #aaa;font-size: 14px;font-family: Arial;display: block;width: 400px;float: left;}
+.infocon a.zq{width: 60px;height: 21px;display: inline-block;background: #fab114;color: #fff;line-height: 21px;text-align: center;float: right;margin-right: 16px;margin-top: 7px;}
+.infocon a.zq:hover{ background:#ffbf35; text-decoration: none;}
+
+.infocon a.pl{display: inline-block;color: #aaa;float: right;margin-right: 8px;margin-top: 8px;display: none;}
+.infocon a.pl:hover{ color: #ff5a19 }
+.infocon a.pl font{ color: #e74851; padding: 0 3px; font-weight: bold; }
+
+.infocon .text{padding-top: 9px;float: left;}
+.infocon .text ul{ width: 650px; }
+.infocon .text ul li{width: 210px;float: left;margin-bottom: 7px;height: 18px;word-break: break-all;overflow: hidden;}
+.infocon .text ul li.system{ width: 300px; }
+.infocon .text ul li span{
+    color: #444;
+}
+.infocon .text ul li span.type{ color: #898989; }
+.infocon .text ul li span a{ color: #0a95e5; margin-right: 7px;}
+.infocon .text ul li span a:hover{ color: #ff5a19; }
+.infobox .gongju .text ul li{ width: 220px; }
+
+.yd{width: 615px;float: left;border-top: 1px solid #f1f1f1;margin-top: 4px;}
+.yd .yd_left{float: left;padding-right: 19px;height: 113px;width: 424px;}
+.yd .yd_left a{width: 189px;height: 74px;display: inline-block;background: url(http://static.yxdown.com/pc/danji/images/softview.png);margin-top: 13px;float: left; overflow: hidden;}
+.yd .yd_left a.highdown{background-position: 0px -755px;margin-top: 13px;text-indent: -9999px;width: 235px;}
+.yd .yd_left a.highdown:hover{background-position: 0px -829px;}
+.yd .yd_left a.localdown{background-position: 0px -415px;margin-right: 11px;position: relative;width: 178px;}
+.yd .yd_left a.localdown em{position: absolute;top: 40px;left: 60px;display: block;color: #fff;width: 200px;}
+.yd .yd_left a.localdown b{text-indent: -9999px; display: none;}
+.yd .yd_left a.localdown:hover{background-position: 0px -489px;}
+.yd .pinglun{float: left; width: 350px;}
+.yd .pinglun .cent{width: 73px;height: 72px;float: right;background: url(http://static.yxdown.com/pc/danji/images/cent.png);background-position: -147px -1px;color: #ff9900;font-size: 38px;line-height: 72px;margin-top: 15px;font-family: impact;text-align: center;}
+.yd .pinglun .pl{ width: 250px; padding-left: 19px; padding-top: 11px; float: left;}
+.yd .pinglun .pl ul{}
+.yd .pinglun .pl ul li{width: 270px;float: left;margin-bottom: 3px;}
+.yd .pinglun .pl ul li a{width: 53px;height: 20px;line-height: 20px;text-align: center;border: 1px solid #eee;color: #898989;border-radius: 2px;display: inline-block;float: left;margin-right: 12px;}
+.yd .pinglun .pl ul li a:hover{ background: #fab114; color: #fff; border: 1px solid #fab114; text-decoration: none;}
+.yd .pinglun .pl ul li i{height: 16px;display: inline-block;background: #93dc2a;margin-top: 3px;float: left;}
+.yd .pinglun .pl ul li em{ padding-top: 1px; display: inline-block; font-family: Arial; margin-left: 10px; color: #888;}
+.yd .pinglun .pl ul li.great i{ width: 100px; }
+.yd .pinglun .pl ul li.ok i{ width: 50px; }
+.yd .pinglun .pl ul li.bad i{ width: 20px; }
+.info_r{width: 245px;height: 250px;float: right;margin-right: 20px;margin-top: 7px;}
